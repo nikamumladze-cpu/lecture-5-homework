@@ -1,0 +1,198 @@
+
+.hero-section {
+    width: 100%;
+    height: 768px;
+    background: url(../images/main.jpg) no-repeat center center/cover;
+    position: relative;
+    color: white;
+    
+    padding: 30px 60px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 580px;
+    height: 392px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.navbar {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden; 
+}
+
+.logo {
+    float: left;
+    height: 38px; 
+}
+
+.logo-text {
+    font-size: 35px;
+    font-weight: 700;
+    color: #f77062;
+}
+
+.navbar nav {
+    text-align: center;
+    margin: 0 180px; 
+    padding-top: 5px; 
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.signup-btn {
+    float: right;
+    background-color: #f77062;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.hero-content {
+    position: absolute;
+    z-index: 2;
+    left: 60px;
+    width: 500px; 
+}
+
+.cursive-text {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 86px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container {
+  width: 1180px;
+  margin: auto;
+}
+
+
+
+.destinations {
+  text-align: center;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 64px;
+}
+
+.desc {
+  margin-bottom: 36px;
+}
+
+.main-card,
+.secondary-cards {
+  width: 580px;
+  height: 626px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-card {
+  border: 1px solid green;
+  background: linear-gradient(rgba(30, 30, 30, 0.56)),
+    url("../images/malaisia.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.card-text {
+  border: 2px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-title {
+  font-size: 22px;
+  color: #fff;
+  
+}
+
+.card-btn  {
+  padding: 16px 17px;
+  background-color: red;
+  border-radius: 18px;
+  color: #fff;
+  display: inline-block;
+  background: linear-gradient(to right, #cd1a40 0%, #ff803c 100%);
+}
+
+.secondary-cards {
+  margin-left: 12px;
+}
+
+.dubai,
+.greece {
+  width: 280px;
+  height: 306px;
+  border: 1px solid tomato;
+  display: inline-block;
+}
+
+.greece {
+  border: 1px solid purple;
+  margin-left: 14px;
+}
+
+.singapore {
+  width: 580px;
+  height: 306px;
+  border: 1px solid goldenrod;
+  margin-top: 10px;
+}
+
+ul li {
+    color: #cd1a40;
+}
+
+.dubai {
+    background: linear-gradient(rgba(30, 30, 30, 0.56)),
+     url(../images/dubai.png);
+   
+  
+}
+
+.greece {
+     background: linear-gradient(rgba(30, 30, 30, 0.56)),
+     url(../images/greece.png)
+}
+
+.singapore {
+     background: linear-gradient(rgba(30, 30, 30, 0.56)),
+     url(../images/singapore.png)
+}
+
+
